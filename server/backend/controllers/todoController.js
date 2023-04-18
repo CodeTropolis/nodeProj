@@ -1,4 +1,4 @@
-const asyncHanlder = require('express-async-handler');
+const asyncHandler = require('express-async-handler');
 
 const getTodos = asyncHandler(async (req, res) => {
   res.status(200).json({message: 'Get todos'})
